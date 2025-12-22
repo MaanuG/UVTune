@@ -1,16 +1,15 @@
 """
-UV-Tune: Resonance-Tracked Electrically Tunable AlGaN Metasurface Pixel
-Device-accurate electro-optic modeling with coherent BPSK system evaluation
-
-Deep-UV (270 nm), AlGaN-on-Sapphire
-Flux-normalized transmission + system-level phase-state abstraction
-
+UV-Tune: Modeling an Electrically Tunable Deep-UV AlGaN Metasurface Pixel for Phase-Modulated Optical Signaling
+Linking resonance physics to BER-based performance metrics
+Deep-UV (270 nm), AlGaN-on-sapphire metasurface unit cell
+Flux-normalized transmission with abstracted phase-state system modeling
 Includes:
-• Correct metasurface EM boundary conditions
-• Electrostatics → carrier density → permittivity shift
-• BER vs SNR sweep
-• Resonator Q-factor → phase efficiency linkage
-• BER vs Q-factor performance scaling
+• Physics-consistent metasurface electromagnetic boundary conditions
+• Electrostatics → carrier density → permittivity shift (Drude-based)
+• BER vs SNR evaluation under coherent BPSK assumptions
+• Resonator Q-factor → phase-efficiency relationship
+• BER vs Q-factor performance trends
+This project focuses on relative performance trends rather than absolute device optimization, making it suitable for simulation-driven undergraduate research.
 """
 
 import meep as mp
